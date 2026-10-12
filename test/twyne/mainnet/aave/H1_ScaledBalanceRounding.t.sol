@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./AaveTestBase.t.sol";
+import {IAToken} from "aave-v3/interfaces/IAToken.sol";
 
 /// @title H1_ScaledBalanceRounding
 /// @notice Hypothesis H1: rounding in rebalanceATokens_CV may leave CV with
